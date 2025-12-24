@@ -8,7 +8,7 @@ load_dotenv()  # Load env variables from .env
 
 # ---- Authentication Service ----
 def authenticate_user_service(user_id: str):
-    return {"authenticated": True, "first_time": True}
+    return {"authenticated": True, "first_time": False}
     # """Authenticates user and checks first-time login."""
     # auth_blob_path = "auth/users.json"
     # users = read_json_from_blob(auth_blob_path)
@@ -201,4 +201,5 @@ if __name__ == "__main__":
 
     print("\n--- Test: Get Specific Session ---")
     session_data = get_chat_session(user_id, session_id)
+
     pprint(session_data)
