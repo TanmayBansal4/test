@@ -1,0 +1,41 @@
+{
+  "session_id": "sess006",
+  "messages": [
+    {
+      "role": "user",
+      "message_id": "What is wages",
+      "state_id": "MH",
+      "state_name": "Maharashtra",
+      "message": "what is wages",
+      "timestamp": "bleh",
+      "feedback_status": "not given"
+    },
+    {
+      "role": "bot",
+      "message_id": "b383e71e-4459-4e14-b122-fee63238a6e1",
+      "state_id": "MH",
+      "state_name": "Maharashtra",
+      "message": "### 1. The Rule (From Context)\nThe term \"wages\" is defined under the Code on Wages, 2019, which provides a comprehensive framework for the regulation of wages in India. According to Section 2(y) of the Code on Wages, \"wages\" means all remuneration, by whatever name called, which would, if the terms of the contract of employment, express or implied, were fulfilled, be payable to a person in respect of his employment. This includes basic pay, dearness allowance, and any other allowances (Maharashtra-Draft-Rule-on-wage-code_ONLYENGLISH.pdf, Page 45).\n\n### 2. Legal Definition (If Required)\nAs per the Central Code (Internal Legal Reference), \"wages\" is defined in Section 2(y) of the Code on Wages, 2019. This definition encompasses all forms of remuneration, including basic pay and allowances, that are payable to an employee for their work.\n\n### 3. Old vs New Analysis (CRITICAL)\nThe concept of wages has undergone significant changes with the introduction of the Code on Wages, 2019, compared to previous legislation such as the Minimum Wages Act, 1948. \n\n- **What has changed**: The Code on Wages consolidates various wage-related laws, including the Minimum Wages Act, 1948, and the Payment of Wages Act, 1936, into a single framework. This consolidation aims to simplify compliance and enhance clarity regarding wage regulations (Maharashtra-Draft-Rule-on-wage-code_ONLYENGLISH.pdf, Page 45).\n\n- **What is newly introduced**: The Code introduces a uniform definition of wages applicable across various sectors, which was not present in earlier laws. It also mandates the fixation of minimum wages based on a standard working-class family\u2019s needs, which includes criteria such as calorie intake and housing rent (Maharashtra-Draft-Rule-on-wage-code_ONLYENGLISH.pdf, Page 42).\n\n- **What has been removed, merged, or consolidated**: The previous separate definitions and provisions under various acts have been merged into a single code, which streamlines the process of wage determination and compliance. For instance, the earlier provisions regarding the calculation of minimum wages based on different criteria have been standardized under the new code (Maharashtra-Draft-Rule-on-wage-code_ONLYENGLISH.pdf, Page 42).\n\nIn summary, the Code on Wages, 2019, represents a significant shift towards a more integrated and standardized approach to wage regulation in India, enhancing clarity and compliance for employers and employees alike.",
+      "timestamp": "2025-12-24T09:52:39.436854+00:00",
+      "feedback_status": "not given"
+    },
+    {
+      "role": "user",
+      "message_id": "What is wages",
+      "state_id": "MH",
+      "state_name": "Maharashtra",
+      "message": "what is wages",
+      "timestamp": "bleh",
+      "feedback_status": "not given"
+    },
+    {
+      "role": "bot",
+      "message_id": "fc9367ee-02f4-479a-bb05-01f460efbac2",
+      "state_id": "MH",
+      "state_name": "Maharashtra",
+      "message": "### 1. The Rule (From Context)\nThe term \"wages\" is defined under the Code on Wages, 2019. According to Section 2(y) of the Code, \"wages\" means all remuneration, by whatever name called, which would, if the terms of the contract of employment, express or implied, were fulfilled, be payable to a person in respect of his employment. This includes basic pay, dearness allowance, and any other allowances (Maharashtra-Draft-Rule-on-wage-code_ONLYENGLISH.pdf, Page 45). \n\n### 2. Legal Definition (If Required)\nAs per the Central Code (Internal Legal Reference), \"wages\" is defined in Section 2(y) of the Code on Wages, 2019. This definition encompasses all forms of remuneration, including basic pay and allowances, that are payable to an employee for their work.\n\n### 3. Old vs New Analysis (CRITICAL)\nThe concept of wages has undergone significant changes with the introduction of the Code on Wages, 2019, compared to previous legislation such as the Minimum Wages Act, 1948.\n\n- **What has changed**: The Code on Wages consolidates various wage-related laws, including the Minimum Wages Act, 1948, and the Payment of Wages Act, 1936, into a single framework. This consolidation aims to simplify compliance and enhance clarity regarding wage regulations (Maharashtra-Draft-Rule-on-wage-code_ONLYENGLISH.pdf, Page 45).\n\n- **What is newly introduced**: The Code introduces a uniform definition of wages applicable across various sectors, which was not present in earlier laws. It also mandates the fixation of minimum wages based on a standard working-class family\u2019s needs, which includes criteria such as calorie intake and housing rent (Maharashtra-Draft-Rule-on-wage-code_ONLYENGLISH.pdf, Page 42).\n\n- **What has been removed, merged, or consolidated**: The previous separate definitions and provisions under various acts have been merged into a single code, which streamlines the process of wage determination and compliance. For instance, the earlier provisions regarding the calculation of minimum wages based on different criteria have been standardized under the new code (Maharashtra-Draft-Rule-on-wage-code_ONLYENGLISH.pdf, Page 42).\n\nIn summary, the Code on Wages, 2019, represents a significant shift towards a more integrated and standardized approach to wage regulation in India, enhancing clarity and compliance for employers and employees alike. \n\n### Additional Points\nWhile the query includes various aspects of wages such as types, calculation methods, and wage disparities, these topics are not directly addressed in the provided context. Therefore, I will refrain from elaborating on them as they fall outside the primary legal lens of wages as defined under the Code on Wages, 2019. \n\nThis information is not found in the provided documents.",
+      "timestamp": "2025-12-24T09:54:17.494958+00:00",
+      "feedback_status": "not given"
+    }
+  ]
+}
