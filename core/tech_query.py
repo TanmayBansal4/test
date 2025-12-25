@@ -12,7 +12,11 @@ def process_tech_query(query, state, perspective_name, chat_history):
     INDEX_FOLDER_DIC = {
         "Maharashtra" : "maha_ada",
         "Gujarat" : "guj_ada",
-        "Uttrakhand" : "uk_ada"
+        "Uttrakhand" : "uk_ada",
+        "Central" : "cen_ada",
+        "Jharkhand" : "jha_ada",
+        "Karnataka" : "ka_ada",
+        "Uttar Pradesh" : "up_ada",
     }
 
     # ===================== LOAD ENV =====================
@@ -226,3 +230,4 @@ DETAILED ANALYST RESPONSE (IN ENGLISH):
 
     print("\n📢 ANSWER:")
     return response.content
+
