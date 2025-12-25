@@ -146,6 +146,8 @@ async def handle_query(request: QueryRequest, background_tasks: BackgroundTasks)
                     "message_id": message_id,
                     "state_id": request.state_id,
                     "state_name": request.state_name,
+                    "perspective_id": request.perspective_id,
+                    "perspective_name": request.perspective_name,
                     "message": query,
                     "timestamp": request.timestamp,
                     "feedback_status": "not given"
@@ -155,6 +157,8 @@ async def handle_query(request: QueryRequest, background_tasks: BackgroundTasks)
                     "message_id": run_id,
                     "state_id": request.state_id,
                     "state_name": request.state_name,
+                    "perspective_id": request.perspective_id,
+                    "perspective_name": request.perspective_name,
                     "message": response,
                     "timestamp": bot_timestamp,
                     "feedback_status": "not given"
@@ -317,3 +321,4 @@ async def rename_session(request: RenameSessionRequest):
 
 if __name__ =='__main__':
     uvicorn.run("main:app",host = '0.0.0.0',port=8007,reload=True)
+
