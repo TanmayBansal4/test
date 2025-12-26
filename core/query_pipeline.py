@@ -34,7 +34,7 @@ router_prompt = PromptTemplate(
 You are an intelligent routing assistant. Your task is to classify the user's query as one of the following intents:
 
 - GENERAL: Greetings, chitchat, small talk, out-of-domain, irrelevant, or casual questions.
-- TECHNICAL: Queries that are related to any labour law and likely need technical documentation or expert knowledge.
+- TECHNICAL: Queries that are related to any labour law and likely need technical documentation or expert knowledge. If any state names or Central comes up route strictly here
 
 Respond strictly in this JSON format:
 {{"intent": "<intent_type>"}}
@@ -86,4 +86,3 @@ User query:
         return process_tech_query(query, state, perspective_name, chat_history)
 
     return "Unable to determine query intent."
-
