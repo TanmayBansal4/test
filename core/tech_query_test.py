@@ -32,7 +32,7 @@ def process_tech_query(query, state, perspective_name, chat_history):
     if not API_KEY or not AZURE_ENDPOINT or not CHAT_DEPLOYMENT:
         raise RuntimeError("Azure OpenAI config missing. Check .env location.")
 
-    INDEX_FOLDER = f"C:/Users/tanmay.b1/Documents/test-main/test-main/core/unified_index_state/{INDEX_FOLDER_DIC[state]}"
+    INDEX_FOLDER = f"core/unified_index_state/{INDEX_FOLDER_DIC[state]}"
 
     # ======================================================
     # UTILS
@@ -256,7 +256,7 @@ DETAILED ANALYST RESPONSE (IN ENGLISH):
         while num >= 0 :
             if states[num - 1] != state:
                 vector_store = FAISS.load_local(
-                    f"C:/Users/tanmay.b1/Documents/test-main/test-main/core/unified_index_state/{INDEX_FOLDER_DIC[states[num-1]]}",
+                    f"core/unified_index_state/{INDEX_FOLDER_DIC[states[num-1]]}",
                     embeddings,
                     allow_dangerous_deserialization=True
                 )
@@ -281,3 +281,4 @@ DETAILED ANALYST RESPONSE (IN ENGLISH):
 
     print("\n📢 ANSWER:")
     return response.content
+
