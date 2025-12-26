@@ -4,7 +4,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 from langchain_openai import AzureChatOpenAI
 from langchain_core.prompts import PromptTemplate
-from .tech_query import process_tech_query
+from .tech_query_test import process_tech_query
 import json
 
 # ===================== LOAD ENV =====================
@@ -86,3 +86,4 @@ User query:
         return process_tech_query(query, state, perspective_name, chat_history)
 
     return "Unable to determine query intent."
+
